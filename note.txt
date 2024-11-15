@@ -1,15 +1,15 @@
-   <div class="">
-         <h2 class="md:text-4xl text-2xl font-extrabold text-white">100%</h2>
-         <p class="text-white mt-5">satisfaction</p>
-        </div>
-        
-        <div class="">
-         <h2 class="md:text-4xl text-2xl font-extrabold text-white">250K</h2>
-         <p class="text-white mt-5">Happy Clients</p>
-        </div>
-        
-        
-        <div class="">
-         <h2 class="md:text-4xl text-2xl font-extrabold text-white">95k+</h2>
-         <p class="text-white mt-5">Projects Complete</p>
-        </div>
+      <div class="">
+            <h2 class="md:text-4xl text-2xl font-extrabold text-white">100%</h2>
+            <p class="text-white mt-5">satisfaction</p>
+            </div>
+            
+            <div class="">
+            <h2 class="md:text-4xl text-2xl font-extrabold text-white">250K</h2>
+            <p class="text-white mt-5">Happy Clients</p>
+            </div>
+            
+            
+            <div class="">
+            <h2 class="md:text-4xl text-2xl font-extrabold text-white">95k+</h2>
+            <p class="text-white mt-5">Projects Complete</p>
+            </div>

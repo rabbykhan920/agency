@@ -34,9 +34,9 @@
 </head>
 <body class="font-inter scroll-smooth">
     <!-- header start -->
-     <header>
+     <header style="background-image: url(img/hero-bg.jpg);">
       <!-- navbar -->
-      <nav class="fixed top-0 left-0 w-full text-black z-50 bg-[#764BDC]">
+      <nav class="fixed top-0 left-0 w-full text-black z-50 bg-[#764BDC] bg-opacity-50">
         <div class="navbar ">
           <div class="navbar-start">
             <div class="dropdown">
@@ -57,25 +57,25 @@
               <ul
                 tabindex="0"
                 class="menu menu-sm dropdown-content text-white font-semibold  rounded-box z-[1] mt-3 w-52 p-2 shadow ">
-                <li><a>Home</a></li>
-                <li><a>Features</a></li>
-                <li><a>Pricing</a></li>
-                <li><a>Our Team</a></li>
-                <li><a>Projects</a></li>
-                <li><a>Contact</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Features">Features</a></li>
+                <li><a href="#Pricing">Pricing</a></li>
+                <li><a href="#Our Team">Our Team</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
                 
               </ul>
             </div>
-            <a href="index.html" class="btn text-3xl text-white bg-transparent border-none hover:bg-transparent ml-24">Agencio</a>
+            <a href="index.html" class="btn text-3xl text-white bg-transparent border-none hover:bg-transparent ml-24 shadow-transparent">Agencio</a>
           </div>
           <div class="navbar-center hidden lg:flex  text-white font-semibold">
             <ul class="menu menu-horizontal px-1">
-              <li><a>Home</a></li>
-              <li><a>Features</a></li>
-              <li><a>Pricing</a></li>
-              <li><a>Our Team</a></li>
-              <li><a>Projects</a></li>
-              <li><a>Contact</a></li>
+              <li><a href="#Home">Home</a></li>
+                <li><a href="#Features">Features</a></li>
+                <li><a href="#Pricing">Pricing</a></li>
+                <li><a href="#Our Team">Our Team</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
           </div>
           
@@ -83,13 +83,27 @@
       </nav>
       <!-- navbar -->
       <!-- banner -->
-      
+      <div id="Home" class="hero min-h-screen bg-[#764BDC] bg-opacity-90">
+        <div class="hero-content text-center text-white space-x-2">
+          <div class="">
+            <h1 class="text-base font-light mb-3">Expert Pepole, Quality Solutions</h1>
+            <h1 class="md:text-5xl text-2xl font-extrabold">We Are Expert In <br>
+              Business Solutions</h1>
+            <p class="py-6 mb-6">
+              It is a long established fact that a reader will be distracted by the readable content of <br> a page when looking at its layout.
+            </p>
+            <button class="btn hover:bg-black text-[#764BDC] hover:text-white border-none mr-4">Get Started</button>
+            <button class="btn bg-black text-white hover:bg-white hover:text-[#764BDC] border-none">Know More</button>
+          </div>
+        </div>
+      </div>
+      <!-- banner -->
     </header>
     <!-- header end -->
     <!-- main start -->
     <main class="md:container md:mx-auto">
       <!--  feature  -->
-      <section class="my-24">
+      <section id="Features" class="my-24">
         <!-- heading -->
         <div class="text-center">
           <h4 class="text-[#764BDC] font-semibold">Features</h4>
@@ -207,7 +221,7 @@
     </section>
     <!-- Trusted by developers -->
      <!-- pricing -->
-     <section class="my-24">
+     <section id="Pricing" class="my-24">
        <!-- heading -->
        <div class="text-center">
          <h4 class="text-[#764BDC] font-semibold">pricing</h4>
@@ -224,7 +238,7 @@
               <p class="text-gray-500">All the basics for starting a new <br> business</p>
               <h2 class="card-title text-3xl font-extrabold py-10">$12<span class="text-base text-gray-500">/mo</span></h2>
               <div class="card-actions justify-center ">
-                <button class="btn bg-black text-white hover:bg-[#764BDC] px-28">Buy Hobby</button>
+                <button class="btn bg-black text-white hover:bg-[#764BDC] lg:px-28 md:px-12">Buy Hobby</button>
               </div>
             </div>
 
@@ -246,7 +260,7 @@
               <p class="text-gray-500">All the basics for starting a new <br> business</p>
               <h2 class="card-title text-3xl font-extrabold py-10">$24<span class="text-base text-gray-500">/mo</span></h2>
               <div class="card-actions justify-center ">
-                <button class="btn bg-black text-white hover:bg-[#764BDC] px-28">Buy Freelancer</button>
+                <button class="btn bg-black text-white hover:bg-[#764BDC] lg:px-28 md:px-12">Buy Freelancer</button>
               </div>
             </div>
 
@@ -268,7 +282,7 @@
               <p class="text-gray-500">All the basics for starting a new <br> business</p>
               <h2 class="card-title text-3xl font-extrabold py-10">$32<span class="text-base text-gray-500">/mo</span></h2>
               <div class="card-actions justify-center ">
-                <button class="btn bg-black text-white hover:bg-[#764BDC] px-28">Buy Startup</button>
+                <button class="btn bg-black text-white hover:bg-[#764BDC] lg:px-28 md:px-12">Buy Startup</button>
               </div>
             </div>
 
@@ -284,13 +298,13 @@
           </div>
           <!-- card-3 -->
           <!-- card-4 -->
-          <div class="card bg-base-100 shadow-xl">
+          <div class="card bg-base-100 shadow-xl ">
             <div class="card-body border-b-2">
               <h2 class="card-title">Enterprise</h2>
               <p class="text-gray-500">All the basics for starting a new <br> business</p>
               <h2 class="card-title text-3xl font-extrabold py-10">$48<span class="text-base text-gray-500">/mo</span></h2>
               <div class="card-actions justify-center ">
-                <button class="btn bg-black text-white hover:bg-[#764BDC] px-28">Buy Enterprise</button>
+                <button class="btn bg-black text-white hover:bg-[#764BDC] lg:px-28 md:px-12">Buy Enterprise</button>
               </div>
             </div>
 
@@ -312,7 +326,7 @@
     </section>
      <!-- pricing -->
      <!-- Meat our team -->
-     <section class="my-24">
+     <section id="Our Team" class="my-24">
        <!-- heading -->
        <div class="text-center">
          <h4 class="text-[#764BDC] font-semibold">Team</h4>
@@ -333,9 +347,9 @@
           <h2 class="card-title">Leonard Krasner</h2>
         </div>
         <div class="">
-          <i class="fa-brands fa-twitter text-gray-500"></i>
-            <i class="fa-brands fa-linkedin text-gray-500"></i>
-          </div>
+          <a href=""> <i class="fa-brands fa-twitter text-gray-500 text-xl mr-3"></i></a>
+             <a href=""><i class="fa-brands fa-linkedin text-gray-500 text-xl"></i></a>
+           </div>
         </div>
         <p class="text-[#764BDC]">Senior Designer</p>
          
@@ -353,9 +367,9 @@
         <h2 class="card-title">Leonard Krasner</h2>
       </div>
       <div class="">
-        <i class="fa-brands fa-twitter text-gray-500"></i>
-          <i class="fa-brands fa-linkedin text-gray-500"></i>
-        </div>
+        <a href=""> <i class="fa-brands fa-twitter text-gray-500 text-xl mr-3"></i></a>
+           <a href=""><i class="fa-brands fa-linkedin text-gray-500 text-xl "></i></a>
+         </div>
       </div>
       <p class="text-[#764BDC]">Senior Designer</p>
        
@@ -373,9 +387,9 @@
         <h2 class="card-title">Leonard Krasner</h2> 
       </div>
       <div class="">
-        <i class="fa-brands fa-twitter text-gray-500"></i>
-          <i class="fa-brands fa-linkedin text-gray-500"></i>
-        </div>
+        <a href=""> <i class="fa-brands fa-twitter text-gray-500 text-xl mr-3"></i></a>
+           <a href=""><i class="fa-brands fa-linkedin text-gray-500 text-xl"></i></a>
+         </div>
       </div>
       <p class="text-[#764BDC]">Senior Designer</p>
        
@@ -488,7 +502,7 @@
        </section>
        <!-- ayro ul -->
        <!-- Our last cases -->
-       <section class="my-24">
+       <section id="Projects" class="my-24">
          <!-- heading -->
        <div class="text-center">
         <h4 class="text-[#764BDC] font-semibold">Projects</h4>
@@ -553,16 +567,16 @@
   </main>
   <!-- main end -->
    <!-- footer -->
-   <footer class="footer bg-[#081828] text-base-content p-10 text-white py-28">
+   <footer id="Contact" class="footer bg-[#081828] text-base-content p-10 text-white py-28">
     <aside>
-      <h2 class="md:text-4xl text-xl font-semibold">Agencio</h2>
+      <h2 class="md:text-4xl text-xl font-semibold cursor-pointer">Agencio</h2>
       <p>Making the world a better place through constructing <br> elegant hierarchies.</p>
       <div class="mt-3 mb-5">
-        <i class="fa-brands fa-twitter ml-3 text-base"></i>
-        <i class="fa-brands fa-instagram ml-3 text-base"></i>
-        <i class="fa-brands fa-linkedin ml-3 text-base"></i>
-        <i class="fa-brands fa-youtube ml-3 text-base"></i>  
-        <i class="fa-brands fa-pinterest ml-3 text-base"></i>
+        <a href=""><i class="fa-brands fa-twitter ml-3 text-base"></i></a>
+        <a href=""><i class="fa-brands fa-instagram ml-3 text-base"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin ml-3 text-base"></i></a>
+        <a href=""><i class="fa-brands fa-youtube ml-3 text-base"></i></a>
+        <a href=""><i class="fa-brands fa-pinterest ml-3 text-base"></i></a> 
       </div>
       <p>All Rights Reserved Iftekhar 2023</p>
     </aside>
